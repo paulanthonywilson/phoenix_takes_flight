@@ -21,7 +21,7 @@ defmodule Chat.Router do
 
     get "/", PageController, :index
     get "/hello/:name", HelloController, :hello
-    get "/chat", PageController, :chat
+    get "/chat", ChatController, :index
 
     resources "/messages", MessageController
   end
