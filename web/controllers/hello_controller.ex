@@ -5,6 +5,6 @@ defmodule Chat.HelloController do
 
 
   def hello(conn, %{"name" => name}) do
-    render conn, "hello.html", name: name
+    render conn, "hello.html", name: (name |> String.reverse)
   end
 end

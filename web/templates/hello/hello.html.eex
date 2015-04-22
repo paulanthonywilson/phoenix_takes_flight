@@ -1,1 +1,9 @@
+
+<p>Doobe dobe do.</p>
+
+<p>
 Hello <%= @name %> from a precompiled template!
+</p>
+
+
+<p>I am a penguin</p>:t
